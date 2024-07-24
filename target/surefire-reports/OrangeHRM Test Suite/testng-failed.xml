@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [OrangeHRM Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" parallel="methods" name="Login Module Test(failed)" verbose="0">
+    <classes>
+      <class name="com.orangehrm.LoginModule">
+        <methods>
+          <include name="tearDownExtentTest"/>
+          <include name="setupExtentTest"/>
+          <include name="setUp"/>
+          <include name="testInvalidUsername"/>
+          <include name="tearDown"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.orangehrm.LoginModule -->
+    </classes>
+  </test> <!-- Login Module Test(failed) -->
+  <test thread-count="4" parallel="methods" name="Admin Module Test(failed)" verbose="0">
+    <classes>
+      <class name="com.orangehrm.AdminModule">
+        <methods>
+          <include name="tearDownExtentTest"/>
+          <include name="setupExtentTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testAdminModule"/>
+        </methods>
+      </class> <!-- com.orangehrm.AdminModule -->
+    </classes>
+  </test> <!-- Admin Module Test(failed) -->
+  <test thread-count="4" parallel="methods" name="Leave Module Test(failed)" verbose="0">
+    <classes>
+      <class name="com.orangehrm.LeaveModule">
+        <methods>
+          <include name="tearDownExtentTest"/>
+          <include name="setupExtentTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testLeaveModule"/>
+        </methods>
+      </class> <!-- com.orangehrm.LeaveModule -->
+    </classes>
+  </test> <!-- Leave Module Test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite] -->

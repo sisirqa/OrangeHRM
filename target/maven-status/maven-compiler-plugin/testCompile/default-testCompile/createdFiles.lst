@@ -1,0 +1,5 @@
+com\orangehrm\BaseTest.class
+com\orangehrm\AdminModule.class
+com\orangehrm\ExtentManager.class
+com\orangehrm\LoginModule.class
+com\orangehrm\LeaveModule.class
