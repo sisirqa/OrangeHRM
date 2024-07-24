@@ -21,3 +21,30 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/sisirqa/OrangeHRM.git
+```
+### Install Dependencies
+Navigate to the project directory and install the required dependencies:
+
+```bash
+cd OrangeHRM
+mvn install
+```
+### Run Tests
+To run the test suite, use Maven:
+
+```bash
+mvn test
+```
+
+You can also run tests in parallel across multiple browser instances by configuring TestNG XML files.
+
+### Project Structure
+```bash
+src/test/java - Contains the test scripts.
+
+src/test/resources - Contains configuration files and TestNG XML files.
+
+pom.xml - Maven configuration file.
+
+README.md - This file.
+```
