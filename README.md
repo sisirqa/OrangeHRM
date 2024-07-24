@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an automation test suite for the OrangeHRM application, using Selenium with Java. The tests cover the Login, Admin, and Leave modules of the application.
+This project is an automation test suite for the open-source demo OrangeHRM application, using Selenium with Java. The tests cover the Login, Admin, and Leave modules of the application.
 
 ## Project Setup
 
